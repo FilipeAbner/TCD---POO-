@@ -82,7 +82,6 @@ public final class Emprestimo extends Entidade {
     public void setCliente(Cliente cliente) {
 
         this.cliente = cliente;
-//        cliente.adicionarEmprestimo(this);
     }
 
     public Exemplar getExemplar() {
@@ -104,16 +103,12 @@ public final class Emprestimo extends Entidade {
 
     public void setDataEmprestimo() {
 
-//        if (dataEmprestimo == null){
         this.dataEmprestimo = LocalDateTime.now(ZoneId.of("America/Sao_Paulo"));
-//        }
     }
 
     public void setDataEmprestimo(LocalDateTime dataEmprestimo) {
 
-//        if (this.dataEmprestimo == null){
         this.dataEmprestimo = dataEmprestimo;
-//        }
     }
 
     public LocalDateTime getDataLimiteDevolucao() {
@@ -130,9 +125,7 @@ public final class Emprestimo extends Entidade {
 
     public void setDataLimiteDevolucao(LocalDateTime dataLimiteDevolucao) {
 
-//        if(this.dataLimiteDevolucao == null){
         this.dataLimiteDevolucao = dataLimiteDevolucao;
-//        }
     }
 
     public LocalDateTime getDataDevolvido() {
@@ -149,7 +142,6 @@ public final class Emprestimo extends Entidade {
 
     public void setDataDevolvido(LocalDateTime dataDevolvido) {
 
-//        if(this.dataDevolvido == null){
         this.dataDevolvido = dataDevolvido;
 //        }
     }
@@ -168,9 +160,7 @@ public final class Emprestimo extends Entidade {
 
     public void setDataPagamentoMulta(LocalDateTime dataPagamentoMulta) {
 
-//        if(this.dataPagamentoMulta == null){
         this.dataPagamentoMulta = dataPagamentoMulta;
-//        }
     }
 
     public long getAtraso() {
@@ -180,7 +170,8 @@ public final class Emprestimo extends Entidade {
         
         this.atraso = quantidadeDiasEmAtraso > 0 ? quantidadeDiasEmAtraso : 0;
 
-        // se atrasado, retorna a quantidade de dias em atraso. se não, retorna 0 
+        /* se atrasado, retorna a quantidade 
+        de dias em atraso. se não, retorna 0 */
         return atraso;
     }
 
