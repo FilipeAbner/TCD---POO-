@@ -21,4 +21,4 @@
 
 
 
-[Book icons created by mikan933 - Flaticon](https://www.flaticon.com/free-icons/book)
+Ícone dos livros usado na tela de login: [created by mikan933 - Flaticon](https://www.flaticon.com/free-icons/book)
