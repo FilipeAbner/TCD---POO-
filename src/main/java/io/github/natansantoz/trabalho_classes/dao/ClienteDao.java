@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 /**
  * 
  *
- * @author 
+ * @author  Natã Santos, Filipe Abner, Gustavo Henrique
  * @version 0.0.1, 03/06/2022
  */
 public class ClienteDao extends Dao<Cliente, Long> {

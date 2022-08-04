@@ -7,7 +7,11 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.lang.Long;
-
+/**
+ *
+ * @author Natã Santos, Filipe Abner, Gustavo Henrique
+ * @version 0.0.1, 02/06/2022
+ */
 
 /**
  * Implementação de operações gerais e definição de operações específicas para

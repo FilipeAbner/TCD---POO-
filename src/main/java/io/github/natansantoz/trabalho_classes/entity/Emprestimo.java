@@ -6,7 +6,11 @@ import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.TimeZone;
-
+/**
+ *
+ * @author Natã Santos, Filipe Abner, Gustavo Henrique
+ * @version 0.0.1, 02/06/2022
+ */
 public final class Emprestimo extends Entidade {
 
     private Cliente cliente;

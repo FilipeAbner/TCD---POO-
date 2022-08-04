@@ -7,11 +7,10 @@ import javax.swing.JTable;
 import javax.swing.SwingConstants;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
-
 /**
  *
- * @author Natã
- * @version 0.0.1, 22/06/2022
+ * @author Natã Santos, Filipe Abner, Gustavo Henrique
+ * @version 0.0.1, 02/06/2022
  */
 public class Tabela extends JTable{
     

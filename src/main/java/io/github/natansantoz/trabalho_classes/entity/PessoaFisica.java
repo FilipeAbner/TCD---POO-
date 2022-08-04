@@ -1,7 +1,11 @@
 package io.github.natansantoz.trabalho_classes.entity;
 
 import io.github.natansantoz.trabalho_classes.util.Util;
-
+/**
+ *
+ * @author Natã Santos, Filipe Abner, Gustavo Henrique
+ * @version 0.0.1, 02/06/2022
+ */
 public abstract class PessoaFisica extends Contato {
 
     private Long cpf;

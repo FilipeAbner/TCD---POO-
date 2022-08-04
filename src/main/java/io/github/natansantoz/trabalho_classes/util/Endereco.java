@@ -4,8 +4,8 @@ package io.github.natansantoz.trabalho_classes.util;
 
 /**
  *
- * @author Natã
- * @version 0.0.1, 25/06/2022
+ * @author Natã Santos, Filipe Abner, Gustavo Henrique
+ * @version 0.0.1, 02/06/2022
  */
 public class Endereco {
 

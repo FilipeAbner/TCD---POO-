@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Natã
+ * @author Natã Santos, Filipe Abner, Gustavo Henrique
  * @version 0.0.1, 02/06/2022
  */
 public class AutorDao extends Dao<Autor, Long> {

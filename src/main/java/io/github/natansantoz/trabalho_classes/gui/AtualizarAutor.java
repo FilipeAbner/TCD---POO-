@@ -11,10 +11,10 @@ import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.Date;
 import javax.swing.JOptionPane;
-
 /**
  *
- * @author Natã
+ * @author Natã Santos, Filipe Abner, Gustavo Henrique
+ * @version 0.0.1, 02/06/2022
  */
 public class AtualizarAutor extends javax.swing.JPanel {
 

@@ -2,7 +2,11 @@
 package io.github.natansantoz.trabalho_classes.dao;
 
 import java.util.List;
-
+/**
+ *
+ * @author Natã Santos, Filipe Abner, Gustavo Henrique
+ * @version 0.0.1, 02/06/2022
+ */
 public interface IDao<E, K> {
 
     public abstract E localizarNaLixeira(K id);

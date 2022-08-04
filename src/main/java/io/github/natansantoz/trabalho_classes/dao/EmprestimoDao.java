@@ -15,8 +15,8 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Natã
- * @version 0.0.1, 04/06/2022
+ * @author Natã Santos, Filipe Abner, Gustavo Henrique
+ * @version 0.0.1, 02/06/2022
  */
 public class EmprestimoDao extends Dao<Emprestimo, Long> {
 

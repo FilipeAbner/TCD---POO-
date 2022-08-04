@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Natã
+ * @author Natã Santos, Filipe Abner, Gustavo Henrique
  * @version 0.0.1, 04/06/2022
  */
 public class AutorLivroDao {

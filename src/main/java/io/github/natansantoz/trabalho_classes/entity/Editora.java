@@ -1,7 +1,11 @@
 package io.github.natansantoz.trabalho_classes.entity;
 
 import java.util.ArrayList;
-
+/**
+ *
+ * @author Natã Santos, Filipe Abner, Gustavo Henrique
+ * @version 0.0.1, 02/06/2022
+ */
 public class Editora extends PessoaJuridica {
 
     private ArrayList<Livro> livros;
